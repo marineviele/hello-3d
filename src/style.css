@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
+body {
+    background-color: #7DFFCF;
+    color: rgb(45, 44, 58);
+    color: #1000C3;
+    color: rgb(214, 76, 34);
+    background-color: #F8DD74;
+    color: #4A61E3;
+    background-color: #EA5C5A;
+    color: #7AFAE3;
+    /* color: #7A59E4; */
+    /* background-color: rgb(236, 74, 71);
+    color: rgb(78, 35, 219); */
+    font-family: 'Libre Baskerville', serif;
+}
+
+.hello {
+    font-size: 80px;
+}
+
+.info {
+    font-size: 70px;
+}
+
+#uppercase {
+    font-size: 60px;
+}
