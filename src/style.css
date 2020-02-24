@@ -1,28 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    background-color: #7DFFCF;
-    color: rgb(45, 44, 58);
-    color: #1000C3;
-    color: rgb(214, 76, 34);
-    background-color: #F8DD74;
-    color: #4A61E3;
-    background-color: #EA5C5A;
-    color: #7AFAE3;
-    /* color: #7A59E4; */
-    /* background-color: rgb(236, 74, 71);
+  /* background-color: #7dffcf;
+  color: rgb(45, 44, 58);
+  color: #1000c3;
+  color: rgb(214, 76, 34);
+  background-color: #f8dd74;
+  color: #4a61e3; */
+  background-color: #ea5c5a;
+  color: #7afae3;
+  /* color: #7A59E4; */
+  /* background-color: rgb(236, 74, 71);
     color: rgb(78, 35, 219); */
-    font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 .hello {
-    font-size: 80px;
+  font-size: 80px;
+  position: absolute;
+  top: 0px;
 }
 
 .info {
-    font-size: 70px;
+  font-size: 70px;
+  position: absolute;
+  top: 0px;
 }
 
 #uppercase {
-    font-size: 60px;
+  font-size: 60px;
+}
+
+#threeD {
+/* === remove blue border that appears */
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); /* mobile webkit */
 }
